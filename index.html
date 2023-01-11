@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220926131625">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__menu menu">
+				<div class="menu__container">
+					<div class="menu__info menu-info">
+						<div class="menu-info__item">
+							<div class="menu-info__title">Дата</div>
+							<div class="menu-info__contant">
+								<div class="menu-info__icon">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#svg-calendar"></use>
+									</svg>
+								</div>
+								<div class="menu-info__subtitle">17 июня</div>
+							</div>
+						</div>
+						<div class="menu-info__item">
+							<div class="menu-info__title">Время</div>
+							<div class="menu-info__contant">
+								<div class="menu-info__icon">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#svg-clock"></use>
+									</svg>
+								</div>
+								<div class="menu-info__subtitle">10.00</div>
+							</div>
+						</div>
+						<div class="menu-info__item">
+							<div class="menu-info__title">Место</div>
+							<div class="menu-info__contant">
+								<div class="menu-info__icon">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#svg-pin"></use>
+									</svg>
+								</div>
+								<div class="menu-info__subtitle"><span>г. Анапа ул.</span> <span>Крепостная, 65</span></div>
+							</div>
+						</div>
+					</div>
+					<nav class="menu__body">
+						<div class="icon-menu"></div>
+						<div class="menu__contant">
+							<div class="menu__logo">
+								<img src="img/header/logo.svg" alt="Logo">
+							</div>
+							<ul class="menu__list">
+								<li class="menu__item"><a data-goto=".organizers" href="#" class="menu__link">организаторы</a></li>
+								<li class="menu__item"><a data-goto=".speakers" href="#" class="menu__link">Спикеры</a></li>
+								<li class="menu__item"><a data-goto=".schedule" href="#" class="menu__link">расписание</a></li>
+							</ul>
+						</div>
+					</nav>
+					<div class="menu__burger icon-menu">
+						<button type="button" class="menu__icon"><span></span></button>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="first-screen">
+				<div class="first-screen__container">
+					<div class="first-screen__text">
+						<h2 class="first-screen__subtitle">семинар</h2>
+						<h1 class="first-screen__title">«Производство органической продукции и Винный гид России»</h1>
+						<p class="first-screen__desc">Для предпринимателей Краснодарского края в рамках дней «открытых» дверей Союза органического земледелия.</p>
+						<a data-goto=".contacts" href="#" class="first-screen__button button">Отправить заявку <svg>
+								<use xlink:href="img/icons/icons.svg#svg-btn-arrow"></use>
+							</svg></a>
+					</div>
+					<div class="first-screen__image">
+						<picture><source srcset="img/first-screen/wine.webp" type="image/webp"><img src="img/first-screen/wine.png" alt="Wine"></picture>
+					</div>
+				</div>
+			</section>
+			<section class="organizers">
+				<div class="organizers__container">
+					<h2 class="organizers__title">организаторы</h2>
+					<div class="organizers__slider organizers-slider">
+						<div class="organizers__wrapper swiper-wrapper">
+							<div class="organizers__slide swiper-slide">
+								<div class="organizers__slide-image">
+									<img src="img/organizers/slide-1.svg" alt="" draggable="false">
+								</div>
+							</div>
+							<div class="organizers__slide swiper-slide">
+								<div class="organizers__slide-image">
+									<img src="img/organizers/slide-1.svg" alt="" draggable="false">
+								</div>
+							</div>
+							<div class="organizers__slide swiper-slide">
+								<div class="organizers__slide-image">
+									<img src="img/organizers/slide-1.svg" alt="" draggable="false">
+								</div>
+							</div>
+							<div class="organizers__slide swiper-slide">
+								<div class="organizers__slide-image">
+									<img src="img/organizers/slide-1.svg" alt="" draggable="false">
+								</div>
+							</div>
+							<div class="organizers__slide swiper-slide">
+								<div class="organizers__slide-image">
+									<img src="img/organizers/slide-1.svg" alt="" draggable="false">
+								</div>
+							</div>
+							<div class="organizers__slide swiper-slide">
+								<div class="organizers__slide-image">
+									<img src="img/organizers/slide-1.svg" alt="" draggable="false">
+								</div>
+							</div>
+							<div class="organizers__slide swiper-slide">
+								<div class="organizers__slide-image">
+									<img src="img/organizers/slide-1.svg" alt="" draggable="false">
+								</div>
+							</div>
+							<div class="organizers__slide swiper-slide">
+								<div class="organizers__slide-image">
+									<img src="img/organizers/slide-1.svg" alt="" draggable="false">
+								</div>
+							</div>
+						</div>
+						<div class="swiper__pagination-block">
+							<div class="swiper__pagination">
+								<button type="button" class="organizers-slider-button-prev"><svg>
+										<use xlink:href="img/icons/icons.svg#svg-arrow"></use>
+									</svg></button>
+								<div class="organizers-slider-pagination"></div>
+								<button type="button" class="organizers-slider-button-next"><svg>
+										<use xlink:href="img/icons/icons.svg#svg-arrow"></use>
+									</svg></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="speakers">
+				<div class="speakers__container">
+					<h2 class="speakers__title">Спикеры</h2>
+					<div class="speakers__slider speakers-slider">
+						<div class="speakers__wrapper swiper-wrapper">
+							<div class="speakers__slide swiper-slide">
+								<div class="speakers__slide-image">
+									<picture><source srcset="img/speakers/slide-1.webp" type="image/webp"><img src="img/speakers/slide-1.jpg" alt="" draggable="false"></picture>
+								</div>
+								<h3 class="speakers__slide-name">Буняева О.Н.</h3>
+								<p class="speakers__slide-desc">С 2018 выстраивает омниканальные системы коммуникации для разных сфер бизнеса: онлайн магазинов, отелей, туроператоров, b2b проектов и операторов связи. </p>
+							</div>
+							<div class="speakers__slide swiper-slide">
+								<div class="speakers__slide-image">
+									<picture><source srcset="img/speakers/slide-1.webp" type="image/webp"><img src="img/speakers/slide-1.jpg" alt="" draggable="false"></picture>
+								</div>
+								<h3 class="speakers__slide-name">Буняева О.Н.</h3>
+								<p class="speakers__slide-desc">С 2018 выстраивает омниканальные системы коммуникации для разных сфер бизнеса: онлайн магазинов, отелей, туроператоров, b2b проектов и операторов связи. </p>
+							</div>
+							<div class="speakers__slide swiper-slide">
+								<div class="speakers__slide-image">
+									<picture><source srcset="img/speakers/slide-2.webp" type="image/webp"><img src="img/speakers/slide-2.jpg" alt="" draggable="false"></picture>
+								</div>
+								<h3 class="speakers__slide-name">Коршунов А.С.</h3>
+								<p class="speakers__slide-desc">С 2018 выстраивает омниканальные системы коммуникации для разных сфер бизнеса: онлайн магазинов, отелей, туроператоров, b2b проектов и операторов связи. </p>
+							</div>
+							<div class="speakers__slide swiper-slide">
+								<div class="speakers__slide-image">
+									<picture><source srcset="img/speakers/slide-1.webp" type="image/webp"><img src="img/speakers/slide-1.jpg" alt="" draggable="false"></picture>
+								</div>
+								<h3 class="speakers__slide-name">Буняева О.Н.</h3>
+								<p class="speakers__slide-desc">С 2018 выстраивает омниканальные системы коммуникации для разных сфер бизнеса: онлайн магазинов, отелей, туроператоров, b2b проектов и операторов связи. </p>
+							</div>
+							<div class="speakers__slide swiper-slide">
+								<div class="speakers__slide-image">
+									<picture><source srcset="img/speakers/slide-1.webp" type="image/webp"><img src="img/speakers/slide-1.jpg" alt="" draggable="false"></picture>
+								</div>
+								<h3 class="speakers__slide-name">Буняева О.Н.</h3>
+								<p class="speakers__slide-desc">С 2018 выстраивает омниканальные системы коммуникации для разных сфер бизнеса: онлайн магазинов, отелей, туроператоров, b2b проектов и операторов связи. </p>
+							</div>
+						</div>
+						<div class="swiper__pagination-block">
+							<div class="swiper__pagination">
+								<button type="button" class="speakers-slider-button-prev"><svg>
+										<use xlink:href="img/icons/icons.svg#svg-arrow"></use>
+									</svg></button>
+								<div class="speakers-slider-pagination"></div>
+								<button type="button" class="speakers-slider-button-next"><svg>
+										<use xlink:href="img/icons/icons.svg#svg-arrow"></use>
+									</svg></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="schedule">
+				<div class="schedule__container">
+					<div class="schedule__title-block">
+						<h2 class="schedule__title">Расписание </h2>
+						<div class="schedule__subtitle-block">
+							<svg class="schedule__icon">
+								<use xlink:href="img/icons/icons.svg#svg-calendar"></use>
+							</svg>
+							<h3 class="schedule__subtitle">17 июня 2022 г, ПТ</h3>
+						</div>
+					</div>
+					<div data-tabs class="schedule__tabs schedule-tabs">
+						<div class="schedule-tabs__navigation-block">
+							<nav data-tabs-titles class="schedule-tabs__navigation">
+								<button type="button" class="schedule-tabs__title _tab-active">
+									<h4 class="schedule-tabs__title-name">I блок.</h4>
+									<p class="schedule-tabs__title-desc">Производство органической продукции</p>
+								</button>
+								<button type="button" class="schedule-tabs__title">
+									<h4 class="schedule-tabs__title-name">II блок. </h4>
+									<p class="schedule-tabs__title-desc">Винный Гид России</p>
+								</button>
+							</nav>
+						</div>
+						<div data-tabs-body class="schedule-tabs__content">
+							<div class="schedule-tabs__body tab-body">
+								<div class="tab-body__item">
+									<div class="tab-body__time">
+										<div class="tab-body__time-info">
+											<svg class="tab-body__time-icon">
+												<use xlink:href="img/icons/icons.svg#svg-clock"></use>
+											</svg>
+											<h4 class="tab-body__time-title">12:00-13:10</h4>
+										</div>
+									</div>
+									<div class="tab-body__name">
+										<h4 class="tab-body__name-title">Открытие Семинара. Приветственное слово</h4>
+										<div class="tab-body__name-speakers-block">
+											<svg class="tab-body__name-icon">
+												<use xlink:href="img/icons/icons.svg#svg-user"></use>
+											</svg>
+											<p class="tab-body__name-speakers">Ткачук И.В., Шевченко А.А.</p>
+										</div>
+									</div>
+								</div>
+								<div class="tab-body__item">
+									<div class="tab-body__time">
+										<div class="tab-body__time-info">
+											<svg class="tab-body__time-icon">
+												<use xlink:href="img/icons/icons.svg#svg-clock"></use>
+											</svg>
+											<h4 class="tab-body__time-title">12:00-13:10</h4>
+										</div>
+									</div>
+									<div class="tab-body__name">
+										<h4 class="tab-body__name-title">Инфраструктура развития производства органической продукции Российской Федерации</h4>
+										<div class="tab-body__name-speakers-block">
+											<svg class="tab-body__name-icon">
+												<use xlink:href="img/icons/icons.svg#svg-user"></use>
+											</svg>
+											<p class="tab-body__name-speakers">Ткачук И.В., Шевченко А.А.</p>
+										</div>
+									</div>
+								</div>
+								<div class="tab-body__item">
+									<div class="tab-body__time">
+										<div class="tab-body__time-info">
+											<svg class="tab-body__time-icon">
+												<use xlink:href="img/icons/icons.svg#svg-clock"></use>
+											</svg>
+											<h4 class="tab-body__time-title">12:00-13:10</h4>
+										</div>
+									</div>
+									<div class="tab-body__name">
+										<h4 class="tab-body__name-title">Открытие Семинара. Приветственное слово</h4>
+										<div class="tab-body__name-speakers-block">
+											<svg class="tab-body__name-icon">
+												<use xlink:href="img/icons/icons.svg#svg-user"></use>
+											</svg>
+											<p class="tab-body__name-speakers">Ткачук И.В., Шевченко А.А.</p>
+										</div>
+									</div>
+								</div>
+								<div class="tab-body__item">
+									<div class="tab-body__time">
+										<div class="tab-body__time-info">
+											<svg class="tab-body__time-icon">
+												<use xlink:href="img/icons/icons.svg#svg-clock"></use>
+											</svg>
+											<h4 class="tab-body__time-title">12:00-13:10</h4>
+										</div>
+									</div>
+									<div class="tab-body__name">
+										<h4 class="tab-body__name-title">Открытие Семинара. Приветственное слово</h4>
+										<div class="tab-body__name-speakers-block">
+											<svg class="tab-body__name-icon">
+												<use xlink:href="img/icons/icons.svg#svg-user"></use>
+											</svg>
+											<p class="tab-body__name-speakers">Ткачук И.В., Шевченко А.А.</p>
+										</div>
+									</div>
+								</div>
+								<div class="tab-body__item">
+									<div class="tab-body__time">
+										<div class="tab-body__time-info">
+											<svg class="tab-body__time-icon">
+												<use xlink:href="img/icons/icons.svg#svg-clock"></use>
+											</svg>
+											<h4 class="tab-body__time-title">12:00-13:10</h4>
+										</div>
+									</div>
+									<div class="tab-body__name">
+										<h4 class="tab-body__name-title">Открытие Семинара. Приветственное слово</h4>
+										<div class="tab-body__name-speakers-block">
+											<svg class="tab-body__name-icon">
+												<use xlink:href="img/icons/icons.svg#svg-user"></use>
+											</svg>
+											<p class="tab-body__name-speakers">Ткачук И.В., Шевченко А.А.</p>
+										</div>
+									</div>
+								</div>
+								<div class="tab-body__item">
+									<div class="tab-body__time">
+										<div class="tab-body__time-info">
+											<svg class="tab-body__time-icon">
+												<use xlink:href="img/icons/icons.svg#svg-clock"></use>
+											</svg>
+											<h4 class="tab-body__time-title">10:00-10:10</h4>
+										</div>
+									</div>
+									<div class="tab-body__name">
+										<h4 class="tab-body__name-title">Открытие Семинара. Приветственное слово</h4>
+										<div class="tab-body__name-speakers-block">
+											<svg class="tab-body__name-icon">
+												<use xlink:href="img/icons/icons.svg#svg-user"></use>
+											</svg>
+											<p class="tab-body__name-speakers">Ткачук И.В., Шевченко А.А.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="schedule-tabs__body tab-body">
+								<div class="tab-body__item">
+									<div class="tab-body__time">
+										<div class="tab-body__time-info">
+											<svg class="tab-body__time-icon">
+												<use xlink:href="img/icons/icons.svg#svg-clock"></use>
+											</svg>
+											<h4 class="tab-body__time-title">10:00-10:10</h4>
+										</div>
+									</div>
+									<div class="tab-body__name">
+										<h4 class="tab-body__name-title">Открытие Семинара. Приветственное слово</h4>
+										<div class="tab-body__name-speakers-block">
+											<svg class="tab-body__name-icon">
+												<use xlink:href="img/icons/icons.svg#svg-user"></use>
+											</svg>
+											<p class="tab-body__name-speakers">Ткачук И.В., Шевченко А.А.</p>
+										</div>
+									</div>
+								</div>
+								<div class="tab-body__item">
+									<div class="tab-body__time">
+										<div class="tab-body__time-info">
+											<svg class="tab-body__time-icon">
+												<use xlink:href="img/icons/icons.svg#svg-clock"></use>
+											</svg>
+											<h4 class="tab-body__time-title">10:00-10:10</h4>
+										</div>
+									</div>
+									<div class="tab-body__name">
+										<h4 class="tab-body__name-title">Открытие Семинара. Приветственное слово</h4>
+										<div class="tab-body__name-speakers-block">
+											<svg class="tab-body__name-icon">
+												<use xlink:href="img/icons/icons.svg#svg-user"></use>
+											</svg>
+											<p class="tab-body__name-speakers">Ткачук И.В., Шевченко А.А.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="contacts">
+				<div class="contacts__decor"></div>
+				<div class="contacts__container">
+					<div class="contacts__image">
+						<picture><source srcset="img/contacts/businesswoman.webp" type="image/webp"><img src="img/contacts/businesswoman.png" alt=""></picture>
+					</div>
+					<div class="contacts__text">
+						<h2 class="contacts__text-title">Вход свободный</h2>
+						<h3 class="contacts__text-subtitle">Для посещения мероприятия регистрация обязательна!</h3>
+						<form action="" class="contacts__text-form">
+							<div class="contacts__text-input-block">
+								<label for="name" class="contacts__text-label">Имя</label>
+								<input name="name" type="text" class="contacts__text-input" placeholder="Введите ваше имя">
+							</div>
+							<div class="contacts__text-input-block">
+								<label for="name" class="contacts__text-label">Почта</label>
+								<input name="name" type="text" class="contacts__text-input" placeholder="Введите вашу почту">
+							</div>
+							<div class="contacts__text-input-block">
+								<label for="name" class="contacts__text-label">Телефон</label>
+								<input name="name" type="text" class="contacts__text-input" placeholder="+7 (_ _ _) _ _ _ - _ _ - _ _ ">
+							</div>
+							<button type="submit" class="contacts__text-button button button_secondary">Отправить заявку<svg>
+									<use xlink:href="img/icons/icons.svg#svg-btn-arrow"></use>
+								</svg></button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__image">
+					<img src="img/footer/logo.svg" alt="Logo">
+				</div>
+				<nav class="footer__nav">
+					<ul class="footer__list">
+						<li class="footer__item"><a data-goto=".organizers" href="#" class="footer__link">организаторы</a></li>
+						<li class="footer__item"><a data-goto=".speakers" href="#" class="footer__link">Спикеры</a></li>
+						<li class="footer__item"><a data-goto=".schedule" href="#" class="footer__link">расписание</a></li>
+					</ul>
+				</nav>
+				<div class="footer__logo">
+					<img src="img/footer/logo-2.svg" alt="Logo">
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20220926131625"></script>
+</body>
+
+</html>
